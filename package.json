@@ -1,0 +1,39 @@
+{
+  "name": "flight-agent-mcp",
+  "version": "0.2.0",
+  "description": "Five-provider flight search and iOS Bark notifications for MCP agents, with automatic setup",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "flight-mcp": "npm/cli.mjs"
+  },
+  "files": [
+    "npm/*.mjs",
+    "npm/uv-assets.json",
+    "npm/payload/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test npm-tests/*.test.mjs",
+    "prepack": "node scripts/prepare-npm.mjs"
+  },
+  "dependencies": {
+    "fflate": "0.8.3"
+  },
+  "keywords": [
+    "mcp",
+    "flights",
+    "ctrip",
+    "qunar",
+    "fliggy",
+    "bark",
+    "agent"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

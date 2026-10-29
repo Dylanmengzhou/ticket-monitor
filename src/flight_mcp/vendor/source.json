@@ -1,0 +1,106 @@
+{
+  "repository": "https://github.com/dengmeiluan/ticket-monitoring",
+  "revision": "844c5e19dbfc785d423cf667024832c585315e2e",
+  "license": "Apache-2.0",
+  "files": {
+    "crawlers/base.py": {
+      "original_sha256": "0721804dfa7026046e76640517ec3f67877d0f77b7372e39225f871a59312d89",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "crawlers/challenge.py": {
+      "original_sha256": "57a8503b6630ad23756913000a7e58bec6e9d54525da00b5f9943dc85302e9bc",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "crawlers/ctrip.py": {
+      "original_sha256": "3b7d07331e53dde81c0b9f151973775e14685fc74e53b3734f9fccce46cb5109",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports.",
+        "Resolve transfer city names with Ctrip's own city table instead of importing QunarCrawler."
+      ]
+    },
+    "core/models.py": {
+      "original_sha256": "dce421bbd85beb3e27bfdcda17a93b9d833b8c9068cda92d31702826b4bc3512",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "core/citydata.py": {
+      "original_sha256": "c5c6e6323705085e4baf13b158a68e7e2ae7e145fbc047aeead027ac22049a53",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "core/flightnorm.py": {
+      "original_sha256": "5b75bc8137087d4cad324b3ce924fc9a7e2aa8e088ed63f1ac660929007b280d",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "core/intl.py": {
+      "original_sha256": "1b1828e203c429a9fdb20aeb0ced23e4c1c3c59b8a433cdbb7668b35a971af3e",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "core/ctrip_dict_gen.py": {
+      "original_sha256": "dc310c2ed723e0cacfd50a486d1680e624efec0f053b1dfb0afec1d1f813c630",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "core/qunar_dict_gen.py": {
+      "original_sha256": "55f503768dc9e710c466807e6feccf49987ca28c960a1caf5e6820186bc316da",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "crawlers/qunar.py": {
+      "original_sha256": "f6ec775c9c545f5f2634831081cf6cb5b68e921b6df74ceb4e878f6b0302daca",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "crawlers/fliggy.py": {
+      "original_sha256": "9e9aeef31fc713edc39d973c4f5be8c93f46af9c8fa35e0b847ef1ad993b5a82",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports.",
+        "Import os for the H5 session fallback."
+      ]
+    },
+    "crawlers/fliggy_h5.py": {
+      "original_sha256": "d8f53b081774ca2bf25671b2a9c94d05c0492865de6e87a4f5be141978697351",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports.",
+        "Retain H5 itinerary fields and the actual adult-total/base-fare price basis for MCP normalization."
+      ]
+    },
+    "crawlers/tongcheng.py": {
+      "original_sha256": "3aaa55064698394ca696ea9d133110931aae46936c663a5ebf30492301961b83",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "crawlers/tuniu.py": {
+      "original_sha256": "b6bd04591ea7b277245a5d979ae081ac462a6f3e513b1d713ef9370ab8728f6a",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "core/channel_links.py": {
+      "original_sha256": "7495e3c43d247f3196be21bfb9aa7fb9c933634490d121cb16c196289e382aa4",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    },
+    "core/login_slots.py": {
+      "original_sha256": "54a3f410f68cb856c07972a4d19ccd14d6febfea564d2c7cbc403bda91bb7456",
+      "changes": [
+        "Added provenance header; namespaced absolute core imports."
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Selected code from dengmeiluan/ticket-monitoring, licensed under Apache-2.0.
+Source: https://github.com/dengmeiluan/ticket-monitoring
+Revision: 844c5e19dbfc785d423cf667024832c585315e2e
+Modifications: provenance headers, package-qualified imports, local Ctrip city lookup, Fliggy os import and retained H5 itinerary/price-basis fields.
+Original copyright and attribution notices are retained in the sources.
+Included: Ctrip, Qunar, Fliggy (PC/H5), Tongcheng, Tuniu and their data/login/link dependencies.
